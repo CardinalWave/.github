@@ -8,12 +8,13 @@ O exemplo foi projetado para ser usado em um cenario em que a comunicacao via in
 O objetivo do programa é permitir que qualquer pessoa que tenha a disponibilidade algum meio de conexão a rede Wi-Fi, consiga se conectar a rede CardinalCloud, e acessar a aplicação criada, possibilitando um meio de contato na regiao local.
 
 Como nosso objetivo com está aplicação é realizar a comunicação entre úsuario conectados á rede. Em nosso projeto contamos com operação de: 
+
     (1) gerenciamento de conta (login de usuario e registro), 
     (2) gerenciamento de grupos (criar e entrar) e 
     (3) envio de mensagens.
 
 <p align="center">
-    <img width="70%" src="https://user-images.githubusercontent.com/7620947/108773349-f68f3500-753c-11eb-8c4f-434ca9a9deec.png" />
+    <img width="70%" src="logo_cardinalWave.png" />
 </p>
 
 No restante deste documento vamos:
@@ -292,3 +293,8 @@ Sendo basicamento o processamento padrão dos eventos recebidos, se analizarmos 
 # CardinalCloud: A construção da rede
 
 Nossa rede foi construida utilizando como base conexões Wi-Fi sob o protocolo 802.11g, embora possua a limitação de 54mBps, utilizado dessa forma por conta de ser um protocolo capaz de ser implementado em todos os dispositivos utilizados de forma convencional e pela grande base de documentações e configurações necessarias compativeis. Além da utilização deste protocolo realizamos a criação de servidores web 
+
+<p align="center">
+    <img width="100%" src="devices.jpeg" />
+</p>
+
